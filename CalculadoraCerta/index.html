@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content = 'Daniel Leaubon e Eduardo' name = 'author'>
+    <meta content = "Daniel Leaubon e Eduardo" name = "author">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
     <form>
-        <label for="">Digite um número</label>
+        <h1>Calculadora</h1>
+        <label for="">Digite um número:</label>
+        <br>
         <input type="number" id="n1">
-        <label for="">Digite outro número</label>
+        <br>
+        <br>
+        <label for="">Digite outro número:</label>
+        <br>
         <input type="number" id="n2">
-        <input type="button" value="+" id="soma">
-        <input type="button" value="-" id="sub">
-        <input type="button" value="/" id="div">
-        <input type="button" value="*" id="pot">
-        <input type="button" value="*" id="quadrada">
-        <input type="button" value="*" id="qlqr">
-        <input type="button" value="*" id="resto">
-      
+        <br>
+        <br>
+        <input type="button" value="+"  onclick="soma()">
+        <input type="button" value="-"  onclick="sub()">
+        <input type="button" value="/"  onclick="div()">
+        <input type="button" value="*"  onclick="mult()">
+        <input type="button" value="^"  onclick="pot()">
+        <input type="button" value="2√" onclick="quadrada()">
+        <input type="button" value="n√" onclick="qlqr()">
+        <input type="button" value="%"  onclick="resto()">
     </form>
-    <h1>Resultado</h1>
+    <h1>Resultado:</h1>
     <p id="resultado"></p>
+    <script src="calc.js"></script>
 </body>
+
 </html>

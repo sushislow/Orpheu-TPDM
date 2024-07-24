@@ -1,0 +1,17 @@
+:root{
+
+--cordefundo: rgb(219, 213, 213);
+--alinhatudo: center;
+
+
+
+
+}
+body{
+
+text-align: var(--alinhatudo);
+align-items: var(--alinhatudo);
+background-color: var(--cordefundo);
+
+} 
+
