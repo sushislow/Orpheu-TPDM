@@ -10,4 +10,4 @@ const salariomn = (func, funcAtual) =>{
 
 const resultado = urlLocal.filter(brasileiros).filter(mulheres).reduce(salariomn)
 
-console.log(resultado)
+console.log(resultado);
