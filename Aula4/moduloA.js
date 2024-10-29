@@ -1,0 +1,1 @@
+this.atrib1 = ''
